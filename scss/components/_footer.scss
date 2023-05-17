@@ -1,0 +1,36 @@
+.footer {
+    border-top: 1px solid #10161D;
+    padding-top: 34px;
+    li,a {
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #10161D;
+        margin-bottom: 13px;
+    };
+};
+
+@media (min-width: $screen-desktop) {
+    .footer {
+        padding-top: 72px;
+        padding-bottom: 58px;
+        li,a {
+            text-align: left;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 29px;
+            
+            color: #10161D;
+            
+        };
+        &__list-2 {
+            margin-top: 115px!important;
+            a {
+                margin-right: 212px;
+            }
+        }
+    }
+}
+

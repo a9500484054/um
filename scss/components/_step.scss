@@ -1,0 +1,37 @@
+.step {
+    padding-top: 45px;
+    h2 {
+        margin-bottom: 17px;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        text-transform: uppercase;
+        
+        color: #000000;
+    }
+    
+}
+
+@media (min-width: $screen-table) {
+    .step {
+        padding-top: 90px;
+        h2 {
+            margin-bottom: 64px;
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 49px;
+            text-align: center;
+            text-transform: uppercase;
+            
+            color: #000000;
+        }
+        
+    }
+}
+
+
+@media (min-width: $screen-desktop) {
+
+}
+

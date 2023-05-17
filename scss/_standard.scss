@@ -1,0 +1,67 @@
+  .btn-up  {
+    z-index: 99999999999999999;
+  }
+
+  
+
+.strip {
+  background: #27113B;
+  padding: 20px 0;
+  // height: 45px;
+  &__text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    color: #fff;
+    span {
+      color: #9A30D7;
+    }
+  }
+}
+
+
+.bg {
+  background:url("./images/bg-service-mob.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: $screen-desktop) {
+  .strip {
+    background: #27113B;
+    padding: 20px 0;
+    // height: 45px;
+    &__text {
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 61px;
+      text-transform: uppercase;
+      span {
+        color: #9A30D7;
+      }
+    }
+  }
+  .bg {
+    background:url("./images/bg-service-dest.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.btn-hover {
+  transition-duration: .5s;
+  &:hover {
+    color: #9A30D7;
+  }
+}
+
+.btn-opacity {
+  transition-duration: .5s;
+  &:hover {
+    opacity: .7;
+  }
+}
